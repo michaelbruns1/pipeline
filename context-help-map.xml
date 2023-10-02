@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="michael_bruns_bio" path="resources/michael_bruns_bio.html"/>
+   <appContext helpID="c_information_architecture"
+               path="resources/c_information_architecture.html"/>
+   <appContext helpID="c_json_schema" path="resources/c_json_schema.html"/>
+   <appContext helpID="c_schematron_for_json"
+               path="resources/c_schematron_for_json.html"/>
+   <appContext helpID="c_validation_using_ci_cd_integration"
+               path="resources/c_validation_using_ci_cd_integration.html"/>
+   <appContext helpID="r_json_schema_2020_changes"
+               path="resources/r_json_schema_2020_changes.html"/>
+   <appContext helpID="c_publishing_templates"
+               path="resources/c_publishing_templates.html"/>
+   <appContext helpID="c_whc_macro" path="resources/c_whc_macro.html"/>
+   <appContext helpID="r_example_using_oxygen_webhelp_template_dir_macro"
+               path="resources/r_example_using_oxygen_webhelp_template_dir_macro.html"/>
+   <appContext helpID="c_blog_posts" path="resources/c_blog_posts.html"/>
+   <appContext helpID="c_add_a_logo" path="resources/c_add_a_logo.html"/>
+   <appContext helpID="c_add_a_favicon" path="resources/c_add_a_favicon.html"/>
+</map>
