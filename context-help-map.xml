@@ -22,4 +22,6 @@
                path="resources/c_adding_an_embedded_video.html"/>
    <appContext helpID="c_utilizing_version_control"
                path="resources/c_utilizing_version_control.html"/>
+   <appContext helpID="c_creating_a_github_pages"
+               path="resources/c_creating_a_github_pages.html"/>
 </map>
