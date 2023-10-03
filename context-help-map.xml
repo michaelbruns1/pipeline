@@ -18,4 +18,6 @@
    <appContext helpID="c_blog_posts" path="resources/c_blog_posts.html"/>
    <appContext helpID="c_add_a_logo" path="resources/c_add_a_logo.html"/>
    <appContext helpID="c_add_a_favicon" path="resources/c_add_a_favicon.html"/>
+   <appContext helpID="c_utilizing_version_control"
+               path="resources/c_utilizing_version_control.html"/>
 </map>
