@@ -4,6 +4,7 @@
    <appContext helpID="c_information_architecture"
                path="resources/c_information_architecture.html"/>
    <appContext helpID="c_json_schema" path="resources/c_json_schema.html"/>
+   <appContext helpID="c_example_schema" path="resources/c_example_schema.html"/>
    <appContext helpID="c_schematron_for_json"
                path="resources/c_schematron_for_json.html"/>
    <appContext helpID="c_validation_using_ci_cd_integration"
