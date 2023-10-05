@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="michael_bruns_bio" path="resources/michael_bruns_bio.html"/>
    <appContext helpID="c_information_architecture"
                path="resources/c_information_architecture.html"/>
    <appContext helpID="c_json_schema" path="resources/c_json_schema.html"/>
