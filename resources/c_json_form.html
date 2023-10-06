@@ -1,0 +1,162 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="25.1">
+    <head><link rel="shortcut icon" href="../logo.png"/><link rel="icon" href="../logo.png"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="description" content="JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project."/><meta name="DC.relation" content="https://jsonform.github.io/jsonform/playground/index.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="c_json_form"/>        
+      <title>JSON Form</title><!--  Generated with Oxygen version 25.1, build number 2023063023.  --><meta name="wh-path2root" content="../"/><meta name="wh-toc-id" content="c_json_form-d355e57"/><meta name="wh-source-relpath" content="resources/c_json_form.dita"/><meta name="wh-out-relpath" content="resources/c_json_form.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/commons.css?buildId=2023063023"/>
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic.css?buildId=2023063023"/>
+
+    <script src="../oxygen-webhelp/app/options/properties.js?buildId=20231005175930"></script>
+    <script src="../oxygen-webhelp/app/localization/strings.js?buildId=2023063023"></script>
+    <script src="../oxygen-webhelp/app/search/index/keywords.js?buildId=20231005175930"></script>
+    <script defer="defer" src="../oxygen-webhelp/app/commons.js?buildId=2023063023"></script>
+    <script defer="defer" src="../oxygen-webhelp/app/topic.js?buildId=2023063023"></script>
+<link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/styles.css?buildId=2023063023"/><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/css/main.css?buildId=2023063023"/></head>
+
+    <body id="c_json_form" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <!-- LINE NUMBERING TO THE CODEBLOCKS with show-line-numbers -->
+    <script src="../oxygen-webhelp/template/js/add-line-numbers.js"></script>
+    <!-- END LINE NUMBERING TO THE CODEBLOCKS -->
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <a href="../index.html" class=" wh_logo d-none d-sm-block "><img src="../logo.png" alt="@michaelbruns1"/></a>
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="title">@michaelbruns1</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem"><span id="michael_bruns_bio-d355e13-mi" data-tocid="michael_bruns_bio-d355e13" data-state="leaf" class=" topicref " data-id="michael_bruns_bio"><span class="title"><a href="../resources/michael_bruns_bio.html">Michael Bruns Bio</a></span></span></li><li role="menuitem"><span id="c_nesting_style_tag_within_a_document-d355e24-mi" data-tocid="c_nesting_style_tag_within_a_document-d355e24" data-state="leaf" class=" topicref " data-id="c_nesting_style_tag_within_a_document"><span class="title"><a href="../resources/c_css_html.html">Nesting Style Tag within a Document</a></span></span></li><li role="menuitem"><span id="c_document_asset_management_dam-d355e35-mi" data-tocid="c_document_asset_management_dam-d355e35" data-state="leaf" class=" topicref " data-id="c_document_asset_management_dam"><span class="title"><a href="../resources/c_document_asset_management_dam.html">Document Asset Management (DAM)</a></span></span></li><li role="menuitem"><span id="c_creating_a_github_pages-d355e46-mi" data-tocid="c_creating_a_github_pages-d355e46" data-state="leaf" class=" topicref " data-id="c_creating_a_github_pages"><span class="title"><a href="../resources/c_creating_a_github_pages.html">Creating a Github Pages site</a></span></span></li><li role="menuitem"><span id="c_json_form-d355e57-mi" data-tocid="c_json_form-d355e57" data-state="leaf" class=" topicref " data-id="c_json_form"><span class="title"><a href="../resources/c_json_form.html">JSON Form</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_information_architecture-d355e68-mi" data-tocid="c_information_architecture-d355e68" data-state="not-ready" class=" topicref " data-id="c_information_architecture"><span class="title"><a href="../resources/c_information_architecture.html">Information Architecture</a></span></span></li></ul></nav>
+                
+                
+            </div>
+            <div class=" wh_search_input navbar-form wh_main_page_search search " role="form"><form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+                
+                
+                
+               <!-- <whc:component_content /> -->
+                
+                
+                
+                    
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+ <!--       <whc:webhelp_search_input class="navbar-form wh_topic_page_search search" role="form">
+            <whc:include_html href="${webhelp.fragment.before.search.input}"/>
+            <whc:include_html href="${webhelp.fragment.before.search.input.topic.page}"/>
+            
+            <whc:component_content/>
+            
+            <whc:include_html href="${webhelp.fragment.after.search.input}"/>
+            <whc:include_html href="${webhelp.fragment.after.search.input.topic.page}"/>
+        </whc:webhelp_search_input>  -->
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li class="active"><div class="topicref" data-id="c_json_form"><div class="title"><a href="../resources/c_json_form.html">JSON Form</a><div class="wh-tooltip"><p class="shortdesc">JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project.</p></div></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-12" id="wh_topic_body">
+                        
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic concept/concept topic concept" role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">JSON Form</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project.</p>
+        <p class="- topic/p p">JSON Form, inspired by the simplicity of JSON and the conveniences of HTML, is a
+            versatile library that transforms JSON Schema into HTML forms. It is advantageous for
+            projects that require form generation without the necessity of using a dynamic frontend
+            library like React, Angular, or Vue. JSON Form comes as a handy solution as it doesn't
+            require a specific framework but works with plain HTML, CSS, and JS, allowing developers
+            to incorporate JSON Schema in any web project conveniently. However, it is an important
+            consideration to observe its current maintenance status and community support.
+            Adjustments may be necessary to match the JSON Schema format expected by the
+            library.</p>
+        <img class="- topic/image image" id="c_json_form__image_qnd_34b_1zb" src="../media/c_json_form_playground_getting_started.png"/>
+    </div>
+    
+</article></main></div>
+                        
+                        
+                        <div class=" wh_related_links d-print-none "><nav aria-label="Related Links" role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo"><strong>Related information</strong><ul class="linklist related_link"><li class="linklist"><a class="- topic/link link navheader_parent_path" href="https://jsonform.github.io/jsonform/playground/index.html" target="_blank" rel="external noopener" title="Creating a form using JSON Schema is easy using JSON Form">JSON Form Playground</a></li></ul></div></nav></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    <div>Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+ &lt;oXygen/&gt; XML WebHelp
+ </a></div>
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

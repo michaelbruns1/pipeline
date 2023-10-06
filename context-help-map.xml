@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="michael_bruns_bio" path="resources/michael_bruns_bio.html"/>
+   <appContext helpID="c_nesting_style_tag_within_a_document"
+               path="resources/c_css_html.html"/>
+   <appContext helpID="c_document_asset_management_dam"
+               path="resources/c_document_asset_management_dam.html"/>
+   <appContext helpID="c_creating_a_github_pages"
+               path="resources/c_creating_a_github_pages.html"/>
+   <appContext helpID="c_json_form" path="resources/c_json_form.html"/>
+   <appContext helpID="c_information_architecture"
+               path="resources/c_information_architecture.html"/>
+   <appContext helpID="c_json_schema" path="resources/c_json_schema.html"/>
+   <appContext helpID="c_schematron_for_json"
+               path="resources/c_schematron_for_json.html"/>
+   <appContext helpID="r_json_schema_2020_changes"
+               path="resources/r_json_schema_2020_changes.html"/>
+   <appContext helpID="c_publishing_templates"
+               path="resources/c_publishing_templates.html"/>
+   <appContext helpID="c_whc_macro" path="resources/c_whc_macro.html"/>
+   <appContext helpID="r_example_using_oxygen_webhelp_template_dir_macro"
+               path="resources/r_example_using_oxygen_webhelp_template_dir_macro.html"/>
+   <appContext helpID="c_controlling_element_behavior"
+               path="resources/c_controlling_element_behavior.html"/>
+   <appContext helpID="c_blog_posts" path="resources/c_blog_posts.html"/>
+   <appContext helpID="c_add_a_logo" path="resources/c_add_a_logo.html"/>
+   <appContext helpID="c_add_a_favicon" path="resources/c_add_a_favicon.html"/>
+   <appContext helpID="c_adding_an_embedded_video"
+               path="resources/c_adding_an_embedded_video.html"/>
+   <appContext helpID="c_utilizing_version_control"
+               path="resources/c_utilizing_version_control.html"/>
+   <appContext helpID="c_creating_a_github_pages"
+               path="resources/c_creating_a_github_pages.html"/>
+   <appContext helpID="c_subject_scheme" path="resources/c_subject_scheme.html"/>
+</map>
