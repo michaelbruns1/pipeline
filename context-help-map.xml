@@ -32,4 +32,8 @@
    <appContext helpID="c_creating_a_github_pages"
                path="resources/c_creating_a_github_pages.html"/>
    <appContext helpID="c_subject_scheme" path="resources/c_subject_scheme.html"/>
+   <appContext helpID="c_ruby_file_handling"
+               path="resources/c_ruby_file_handling.html"/>
+   <appContext helpID="t_fixing_unstyled_flash"
+               path="resources/t_fixing_unstyled_flash.html"/>
 </map>

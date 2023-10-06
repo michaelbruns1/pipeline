@@ -1,6 +1,6 @@
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="25.1">
-    <head><link rel="shortcut icon" href="../logo.png"/><link rel="icon" href="../logo.png"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="description" content="JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project."/><meta name="DC.relation" content="https://jsonform.github.io/jsonform/playground/index.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="c_json_form"/>        
-      <title>JSON Form</title><!--  Generated with Oxygen version 25.1, build number 2023063023.  --><meta name="wh-path2root" content="../"/><meta name="wh-toc-id" content="c_json_form-d371e59"/><meta name="wh-source-relpath" content="resources/c_json_form.dita"/><meta name="wh-out-relpath" content="resources/c_json_form.html"/>
+    <head><link rel="shortcut icon" href="../logo.png"/><link rel="icon" href="../logo.png"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="description" content="Ruby provides simple and intuitive methods for file handling through its robust standard library. This makes operations like file creation, deletion, reading, and writing straightforward to implement."/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="c_ruby_file_handling"/>        
+      <title>File Handling in Ruby</title><!--  Generated with Oxygen version 25.1, build number 2023063023.  --><meta name="wh-path2root" content="../"/><meta name="wh-toc-id" content="c_ruby_file_handling-d371e251"/><meta name="wh-source-relpath" content="resources/c_ruby_file_handling.dita"/><meta name="wh-out-relpath" content="resources/c_ruby_file_handling.html"/>
 
     <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/commons.css?buildId=2023063023"/>
     <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic.css?buildId=2023063023"/>
@@ -12,7 +12,7 @@
     <script defer="defer" src="../oxygen-webhelp/app/topic.js?buildId=2023063023"></script>
 <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/styles.css?buildId=2023063023"/><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/css/main.css?buildId=2023063023"/></head>
 
-    <body id="c_json_form" class="wh_topic_page frmBody">
+    <body id="c_ruby_file_handling" class="wh_topic_page frmBody">
         <a href="#wh_topic_body" class="sr-only sr-only-focusable">
             Jump to main content
         </a>
@@ -77,7 +77,7 @@
 
                 <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
                     
-                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li class="active"><div class="topicref" data-id="c_json_form"><div class="title"><a href="../resources/c_json_form.html">JSON Form</a><div class="wh-tooltip"><p class="shortdesc">JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project.</p></div></div></div></li></ol></div>
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li class="active"><div class="topicref" data-id="c_ruby_file_handling"><div class="title"><a href="../resources/c_ruby_file_handling.html">File Handling in Ruby</a><div class="wh-tooltip"><p class="shortdesc">Ruby provides simple and intuitive methods for file handling through its robust standard library. This makes operations like file creation, deletion, reading, and writing straightforward to implement.</p></div></div></div></li></ol></div>
                     
                     
                     
@@ -108,25 +108,30 @@
                         
                         
                         <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic concept/concept topic concept" role="article" aria-labelledby="ariaid-title1">
-    <h1 class="- topic/title title topictitle1" id="ariaid-title1">JSON Form</h1>
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">File Handling in Ruby</h1>
     
-    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">JSON Form is a lightweight library used for converting JSON Schema into HTML form that can easily integrate with any project.</p>
-        <p class="- topic/p p">JSON Form, inspired by the simplicity of JSON and the conveniences of HTML, is a
-            versatile library that transforms JSON Schema into HTML forms. It is advantageous for
-            projects that require form generation without the necessity of using a dynamic frontend
-            library like React, Angular, or Vue. JSON Form comes as a handy solution as it doesn't
-            require a specific framework but works with plain HTML, CSS, and JS, allowing developers
-            to incorporate JSON Schema in any web project conveniently. However, it is an important
-            consideration to observe its current maintenance status and community support.
-            Adjustments may be necessary to match the JSON Schema format expected by the
-            library.</p>
-        <img class="- topic/image image" id="c_json_form__image_qnd_34b_1zb" src="../media/c_json_form_playground_getting_started.png"/>
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">Ruby provides simple and intuitive methods for file handling through its robust standard library. This makes operations like file creation, deletion, reading, and writing straightforward to implement.</p>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Creating a File</h2>
+            
+            <p class="- topic/p p">To create a new file in Ruby, utilize the <code class="+ topic/ph pr-d/codeph ph codeph">File.new</code> method. For example, <code class="+ topic/ph pr-d/codeph ph codeph">File.new("my_new_file.txt", "w+")</code> creates a new file named <code class="+ topic/ph pr-d/codeph ph codeph">my_new_file.txt</code>, open for both reading and writing.</p>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Writing to a File</h2>
+            
+            <p class="- topic/p p">To write to a file, use the <code class="+ topic/ph pr-d/codeph ph codeph">File.open</code> method along with the <code class="+ topic/ph pr-d/codeph ph codeph">write</code> method. For instance, <code class="+ topic/ph pr-d/codeph ph codeph">File.open("my_new_file.txt", "w") { |file| file.write("Hello, world!") }</code> opens the file in write mode and writes “Hello, world!” to it.</p>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Reading from a File</h2>
+            
+            <p class="- topic/p p">Reading a file is as simple as using the <code class="+ topic/ph pr-d/codeph ph codeph">File.read</code> method. For example, with <code class="+ topic/ph pr-d/codeph ph codeph">File.read("my_new_file.txt")</code>, the contents of <code class="+ topic/ph pr-d/codeph ph codeph">my_new_file.txt</code> will be returned.</p>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Deleting a File</h2>
+            
+            <p class="- topic/p p">To delete a file, the <code class="+ topic/ph pr-d/codeph ph codeph">File.delete</code> method can be used. For example, executing <code class="+ topic/ph pr-d/codeph ph codeph">File.delete("my_new_file.txt")</code> will delete the file named <code class="+ topic/ph pr-d/codeph ph codeph">my_new_file.txt</code>.</p>
+        </section>
     </div>
-    
 </article></main></div>
                         
                         
-                        <div class=" wh_related_links d-print-none "><nav aria-label="Related Links" role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo"><strong>Related information</strong><ul class="linklist related_link"><li class="linklist"><a class="- topic/link link navheader_parent_path" href="https://jsonform.github.io/jsonform/playground/index.html" target="_blank" rel="external noopener" title="Creating a form using JSON Schema is easy using JSON Form">JSON Form Playground</a></li></ul></div></nav></div>
+                        
                         
                         
                         
